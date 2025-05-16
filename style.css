@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    padding: 50px 0px;
+}
+.upper-head{
+    text-align: center;
+}
+.box-outer{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.boxes{
+    height: 300px;
+    width: 250px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    padding: 30px 0px; 
+}
+.boxes:hover{
+    height: 305px;
+    width: 255px;
+}
+.boxes-2-outer{
+    height: 305px;
+    width: 255px;
+
+}
+.boxes-2{
+    height: 300px;
+    width: 250px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    padding: 30px 0px; 
+}
+.boxes:hover{
+    height: 302.5px;
+    width: 252.5px;
+}
+
+.outer-img{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid blue;
+    background-image: url(abhiim.jpg);
+    background-size: cover;
+}
+.jhon{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.designer{
+       height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.icons{
+       height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.jhon h4{
+    font-size: 25px;
+    
+}
+i{
+    font-size: 20px;
+    color: blue;
+    cursor: pointer;
+}
+
+/*! media query starts here */
+@media only screen and (max-width: 768px){
+    .box-outer{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .upper-head{
+        width: 100%;
+        height: 60px;
+    }
+    .main{
+        height: 1450px;
+    }
+
+}
+@media only screen and (max-width: 1024px){
+    .box-outer{
+        width: 100%;
+        height: 700px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 80px;
+        /* column-gap: 50px; */
+    }
+     .upper-head{
+        width: 100%;
+        height: 100px;
+        font-size: 25px;
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 1100px;
+     
+    }
+}
